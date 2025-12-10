@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../../core-apis/src/VendorMdm.Shared/VendorMdm.Shared.csproj" />
+    <ProjectReference Include="../VendorMdm.Shared/VendorMdm.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
