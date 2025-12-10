@@ -1,0 +1,21 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+        "SqlConnectionString": "Server=tcp:mdmportal-sqldb-dev.database.windows.net,1433;Initial Catalog=mdmportal-db;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;Authentication=\"Active Directory Default\";",
+        "CosmosConnectionString": "AccountEndpoint=https://mdmportal-cosmos-dev.documents.azure.com:443/;AccountKey=Key;",
+        "ServiceBusConnection": "Endpoint=sb://mdmportal-sb-dev.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=Key;",
+        
+        "_COMMENT_SAP": "SAP Integration Configuration - Update these values for local development",
+        "KeyVaultUri": "https://vendormdm-kv-dev.vault.azure.net/",
+        "EventHubNamespace": "evh-sap-events-dev.servicebus.windows.net",
+        
+        "_COMMENT_SAP_LOCAL": "For local development without Key Vault, uncomment and set these:",
+        "_SAP-Hostname": "sap-dev.company.com",
+        "_SAP-SystemNumber": "00",
+        "_SAP-Client": "100",
+        "_SAP-SystemAccount-Username": "SAPVENDORPORTAL",
+        "_SAP-SystemAccount-Password": "YOUR_PASSWORD_HERE"
+    }
+}

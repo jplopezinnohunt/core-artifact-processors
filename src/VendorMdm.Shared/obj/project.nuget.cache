@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9VDq9pbkXkY=",
+  "success": true,
+  "projectFilePath": "/Users/jplopez/projects/vendor-mdm-portal-mr/core-artifact-processors/src/VendorMdm.Shared/VendorMdm.Shared.csproj",
+  "expectedPackageFiles": [
+    "/Users/jplopez/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/jplopez/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
